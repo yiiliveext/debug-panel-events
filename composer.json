@@ -1,0 +1,51 @@
+{
+    "name": "yiiliveext/debug-panel-events",
+    "type": "lib",
+    "description": "Yii Debug Panel Events",
+    "keywords": [
+        "yii3",
+        "app",
+        "debug",
+        "logs"
+    ],
+    "homepage": "https://github.com/yiilivext/debug-panel-events/",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisliveext/debug-panel-events/issues?state=open",
+        "forum": "https://www.yiiframework.com/forum/",
+        "wiki": "https://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/debig-panel-events"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4|^8.0",
+        "yiisoft/data-response": "^3.0@dev",
+        "yiisoft/http": "^1.0@dev",
+        "yiisoft/view": "^3.0@dev",
+        "yiisoft/yii-event": "^1.0"
+    },
+    "require-dev": {        
+    },
+    "autoload": {
+        "psr-4": {
+            "Yiiliveext\\Yii\\Debug\\Panel\\Events\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
+        "config-plugin-options": {
+            "output-directory": "config/packages"
+        },
+        "config-plugin": {
+            "params": "config/params.php",
+            "routes": "config/routes.php"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

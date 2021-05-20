@@ -25,8 +25,7 @@
         "yiisoft/data-response": "^3.0@dev",
         "yiisoft/http": "^1.0@dev",
         "yiisoft/view": "^3.0@dev",
-        "yiisoft/yii-event": "^1.0",
-        "yiiliveext/yii-debug-panels": "*"
+        "yiisoft/yii-event": "^1.0"
     },
     "require-dev": {        
     },

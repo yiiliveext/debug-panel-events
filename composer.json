@@ -21,10 +21,12 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.4|^8.0",
+        "tuupola/cors-middleware": "^1.2.1",
         "yiisoft/data-response": "^3.0@dev",
         "yiisoft/http": "^1.0@dev",
         "yiisoft/view": "^3.0@dev",
-        "yiisoft/yii-event": "^1.0"
+        "yiisoft/yii-event": "^1.0",
+        "yiiliveext/yii-debug-panels": "*"
     },
     "require-dev": {        
     },

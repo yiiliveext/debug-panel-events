@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 return [
-    'yiiliveext/yii-debug-panels' => [
+    'yiiliveext/yii-debug-viewer' => [
         'panels' => [
             'panel-events' => [
                 'name' => 'Events',
